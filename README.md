@@ -42,7 +42,19 @@ Go to the catalog
 cd airbyte
 ```
 
-Download Airbyte `.env`:
+Run
+``` bash
+./run-ab-platform.sh
+```
+
+Stop:
+
+``` bash
+docker-compose down
+```
+
+
+Download Airbyte `Caddyfile`:
 ``` bash
 wget https://raw.githubusercontent.com/6Ministers/airbyte-docker-compose-for-business/master/Caddyfile
 ```
@@ -75,7 +87,6 @@ services:
     network_mode: "host"
 ```
 
-
 Default Credentials: Log in using the default username airbyte and password password. Remember to update these credentials in your .env file for security.
 
 ``` bash
@@ -85,13 +96,9 @@ BASIC_AUTH_USERNAME=your_new_username_here
 BASIC_AUTH_PASSWORD=your_new_password_here
 ```
 
-Run
-``` bash
-./run-ab-platform.sh
-```
 
 
-Then open `https://airbyte.domain.com:` to access Jitsi
+Then open `https://airbyte.domain.com:` to access Airbyte
 
 
 ## Airbyte container management
