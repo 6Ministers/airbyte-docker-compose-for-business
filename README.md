@@ -87,7 +87,7 @@ services:
     network_mode: "host"
 ```
 
-Default Credentials: Log in using the default username airbyte and password password. Remember to update these credentials in your .env file for security.
+Default Credentials: Log in using the default username airbyte and password password. Remember to update these credentials in your ``.env`` file for security.
 
 ``` bash
 # Proxy Configuration
