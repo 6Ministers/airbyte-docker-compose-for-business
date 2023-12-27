@@ -96,8 +96,10 @@ BASIC_AUTH_USERNAME=your_new_username_here
 BASIC_AUTH_PASSWORD=your_new_password_here
 ```
 
-
-
+Run Airbyte:
+``` bash
+docker-compose up -d
+```
 Then open `https://airbyte.domain.com:` to access Airbyte
 
 
