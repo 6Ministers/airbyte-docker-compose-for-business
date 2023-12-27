@@ -44,7 +44,7 @@ cd airbyte
 
 Download Airbyte `.env`:
 ``` bash
-wget https://raw.githubusercontent.com/6Ministers/airbyte-docker-compose-for-business/master/master/Caddyfile
+wget https://raw.githubusercontent.com/6Ministers/airbyte-docker-compose-for-business/master/Caddyfile
 ```
 
 In the configuration file `Caddyfile`, set the following parameters:
