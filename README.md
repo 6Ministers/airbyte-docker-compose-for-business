@@ -86,7 +86,8 @@ services:
       - ./sites:/srv
     network_mode: "host"
 ```
-![Screenshot_82](https://github.com/6Ministers/airbyte-docker-compose-for-business/assets/11208423/374672f0-3f61-42f8-b033-75dd437e16c7)
+![Screenshot_82](https://github.com/6Ministers/airbyte-docker-compose-for-business/assets/11208423/94dd5eac-c52b-4664-a5f3-e956176b934e)
+
 
 Default Credentials: Log in using the default username airbyte and password password. Remember to update these credentials in your ``.env`` file for security.
 
